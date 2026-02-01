@@ -1,4 +1,3 @@
-El proyecto es una tienda de discos en la que se pueden buscar álbumes por género, artista o nombre. Además, cuenta con un formulario adicional para agregar pedidos cuando un disco no se encuentra en el catálogo. La estructura del proyecto organiza los scripts por género (rock, tango, pop, etc.) y utiliza una plantilla base (base.html) para mantener la consistencia del diseño.
-
+El proyecto es una tienda de discos en la que se pueden buscar álbumes por género, artista o nombre. Además, cuenta con un formulario adicional para agregar pedidos cuando un disco no se encuentra en el catálogo. Los usuarios registrados pueden dejar un mensaje desde la sección “Nosotros” mediante un formulario que pide nombre, apellido, email y mensaje. La estructura del proyecto organiza los scripts por género (rock, tango, pop, etc.) y utiliza una plantilla base (base.html) para mantener la consistencia del diseño.
 
 VIDEO : https://drive.google.com/drive/folders/1XwlJ0rqo9PB4JQX6Q5bYu0ZEwNjHfw-O?usp=sharing
