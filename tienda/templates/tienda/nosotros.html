@@ -18,6 +18,15 @@
                 <div class="text-center mt-4">
                     <img src="{% static 'pics/fatcatrecords.jpg' %}" class="img-fluid rounded" alt="Fat Cat Records">
                 </div>
+
+                {% if user.is_authenticated %}
+                <div class="text-center mt-4">
+                    <a href="{% url 'mensajes:dejar_mensaje' %}" class="btn btn-primary btn-lg">
+                        Dejá un mensaje
+                    </a>
+                </div>
+                {% endif %}
+
             </div>
         </div>
     </div>

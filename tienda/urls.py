@@ -25,7 +25,7 @@ urlpatterns = [
 
     path("discos/buscar/", views.buscar_disco, name="buscar_disco"),
 
-    path("nosotros/", views.nosotros, name="nosotros"),
+    path('nosotros/', views.nosotros, name='nosotros'),
     path("pedido/", views.agregar_pedido, name="agregar_pedido"),
 
     

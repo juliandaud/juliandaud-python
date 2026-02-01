@@ -1,0 +1,14 @@
+{% extends "tienda/base.html" %}
+
+{% block content %}
+<h2>Dejá un mensaje</h2>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+<a href="{% url 'tienda:nosotros' %}" class="btn btn-primary">Volver a Nosotros</a>
+
+{% endblock %}

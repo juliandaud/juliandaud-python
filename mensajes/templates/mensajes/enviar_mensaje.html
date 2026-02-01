@@ -1,0 +1,9 @@
+<h2>Enviar mensaje</h2>
+
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Enviar</button>
+</form>
+
+<a href="{% url 'mensajes:inbox' %}">Volver a la bandeja</a>
