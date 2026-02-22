@@ -1,3 +1,11 @@
-El proyecto es una tienda de discos en la que se pueden buscar álbumes por género, artista o nombre. Además, cuenta con un formulario adicional para agregar pedidos cuando un disco no se encuentra en el catálogo. Los usuarios registrados pueden dejar un mensaje desde la sección “Nosotros” mediante un formulario que pide nombre, apellido, email y mensaje. La estructura del proyecto organiza los scripts por género (rock, tango, pop, etc.) y utiliza una plantilla base (base.html) para mantener la consistencia del diseño.
+Music Store Project
+Overview
 
+This project is a music store where users can search for albums by genre, artist, or title. It includes an additional form to add orders when an album is not found in the catalog.
+Registered users can leave a message through the “About Us” section using a form that requires first name, last name, email, and message.
+Project Structure
+Scripts are organized by genre (rock, tango, pop, etc.).
+A base template (base.html) is used to maintain consistent design across pages.
+
+Demo Video
 VIDEO : https://drive.google.com/drive/folders/1XwlJ0rqo9PB4JQX6Q5bYu0ZEwNjHfw-O?usp=sharing
